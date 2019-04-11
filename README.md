@@ -21,5 +21,5 @@ To compile:
 Then to run:
     $ ./enigma
 
-##Licence
+## Licence
 This software is licensed under the GNU GPL version 3 or later. A copy is included in COPYING.
