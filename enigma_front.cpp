@@ -147,13 +147,9 @@ int main() {
 				machine.set_wheel(1,slot2,keyboard.find(set2));
 				machine.set_wheel(2,slot3,keyboard.find(set3));
 				plug_out = keyboard;
-				//aaaaaaaaa how do this
-				//i thought of a horribly inefficient way that'll do
-				for(int i=0;i<keyboard.length();i++) {
-					if(plug.find(keyboard[i]) != ' ') {
-						plug_out[i] = plug.find(keyboard[i]);
-						plug_out[keyboard.find(plug.find(keyboard[i]))] = keyboard[i];
-					}
+				for(int i=0;i<plug.show().length();i+=3) {
+					plug_out[ keyboard.find( plug.show()[0+i] ) ] = plug.show()[1+i];
+					plug_out[ keyboard.find( plug.show()[1+i] ) ] = plug.show()[0+i];
 				}
 				machine.set_plugboard(plug_out);
 				//encoding
