@@ -5,15 +5,21 @@ There are two versions, the first written in Java with a GUI, the second in C++ 
 
 ## About the implementation
 Wheel specs are recorded here:
+
 [en.wikipedia.org](https://en.wikipedia.org/wiki/Enigma_rotor_details)
+
 [users.telenet.be](http://users.telenet.be/d.rijmenants/en/enigmatech.htm) (this is the page I relied on)
+
 [codesandciphers.org](https://www.codesandciphers.org.uk/enigma/rotorspec.htm)
 
 Actions speak louder than words, so here is a video of a paper enigma machine in action.
+
 [YouTube](https://www.youtube.com/watch?v=pZsuxZXN33g)
+
 Notice that the wheels, rotors, whatever, move BEFORE encoding the letter typed!
 
 Here also is an Arduino implementation, code included.
+
 [Instructables](https://www.instructables.com/id/Make-your-own-Enigma-Replica/)
 
 The Enigma machine works by sending an electrical signal...
