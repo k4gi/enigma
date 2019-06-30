@@ -3,6 +3,8 @@ This is a software implementation of the classic World War II Enigma machine. I'
 
 There are two versions, the first written in Java with a GUI, the second in C++ with NCurses. The Java version is very messy! But eventually I'll clean it up.
 
+Special thanks to [craig9 for his Python implementation](https://github.com/craig9/k4gi-enigma) that helped me understand my own code a lot better!
+
 ## About the implementation
 Wheel specs are recorded here:
 
